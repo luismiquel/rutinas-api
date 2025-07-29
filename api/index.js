@@ -3,6 +3,12 @@ const fs = require('fs');
 const path = require('path');
 const app = express();
 
+// ✅ Permitir solicitudes desde cualquier origen (CORS)
+app.use((req, res, next) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  next();
+});
+
 app.get('/', (req, res) => {
   const { nivel, objetivo } = req.query;
 
