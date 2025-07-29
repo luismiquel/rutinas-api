@@ -3,6 +3,16 @@
       "ganar masa muscular": ["Flexiones", "Sentadillas", "Fondos en silla"],
       "tonificar": ["Plancha", "Abdominales", "Zancadas"],
       "perder grasa": ["Burpees", "Mountain climbers", "Jumping jacks"]
+    },
+    "intermedio": {
+      "ganar masa muscular": ["Flexiones declinadas", "Sentadilla búlgara", "Fondos en banco"],
+      "tonificar": ["Plancha lateral", "Abdominales en V", "Zancadas con salto"],
+      "perder grasa": ["Jump squats", "High knees", "Skaters"]
+    },
+    "avanzado": {
+      "ganar masa muscular": ["Flexiones explosivas", "Pistol squats", "Handstand push-ups"],
+      "tonificar": ["Plancha con brazo/pierna", "Crunchs con giro", "Estocadas caminando"],
+      "perder grasa": ["Burpees con salto alto", "Tuck jumps", "Running en el lugar con peso"]
     }
   }
   
