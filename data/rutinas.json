@@ -1,18 +1,50 @@
 {
     "principiante": {
-      "ganar masa muscular": ["Flexiones", "Sentadillas", "Fondos en silla"],
-      "tonificar": ["Plancha", "Abdominales", "Zancadas"],
-      "perder grasa": ["Burpees", "Mountain climbers", "Jumping jacks"]
-    },
-    "intermedio": {
-      "ganar masa muscular": ["Flexiones declinadas", "Sentadilla búlgara", "Fondos en banco"],
-      "tonificar": ["Plancha lateral", "Abdominales en V", "Zancadas con salto"],
-      "perder grasa": ["Jump squats", "High knees", "Skaters"]
-    },
-    "avanzado": {
-      "ganar masa muscular": ["Flexiones explosivas", "Pistol squats", "Handstand push-ups"],
-      "tonificar": ["Plancha con brazo/pierna", "Crunchs con giro", "Estocadas caminando"],
-      "perder grasa": ["Burpees con salto alto", "Tuck jumps", "Running en el lugar con peso"]
+      "ganar masa muscular": {
+        "dias": [
+          {
+            "dia": "Día 1",
+            "ejercicios": [
+              { "nombre": "Flexiones", "series": 2, "repeticiones": 10 },
+              { "nombre": "Sentadillas", "series": 2, "repeticiones": 10 },
+              { "nombre": "Fondos en silla", "series": 2, "repeticiones": 10 },
+              { "nombre": "Plancha", "series": 2, "repeticiones": 30 },
+              { "nombre": "Abdominales", "series": 2, "repeticiones": 15 }
+            ]
+          },
+          {
+            "dia": "Día 2",
+            "ejercicios": [
+              { "nombre": "Flexiones", "series": 3, "repeticiones": 15 },
+              { "nombre": "Zancadas", "series": 3, "repeticiones": 15 },
+              { "nombre": "Elevación de piernas", "series": 3, "repeticiones": 15 },
+              { "nombre": "Plancha lateral", "series": 3, "repeticiones": 30 },
+              { "nombre": "Sentadilla isométrica", "series": 3, "repeticiones": 30 }
+            ]
+          },
+          {
+            "dia": "Día 3",
+            "ejercicios": [
+              { "nombre": "Flexiones con aplauso", "series": 2, "repeticiones": 12 },
+              { "nombre": "Step-ups (en escalón)", "series": 2, "repeticiones": 12 },
+              { "nombre": "Puente de glúteos", "series": 2, "repeticiones": 15 },
+              { "nombre": "Fondos en banco", "series": 2, "repeticiones": 10 },
+              { "nombre": "Crunches", "series": 2, "repeticiones": 20 },
+              { "nombre": "Jumping jacks", "series": 2, "repeticiones": 30 }
+            ]
+          },
+          {
+            "dia": "Día 4",
+            "ejercicios": [
+              { "nombre": "Flexiones", "series": 4, "repeticiones": 12 },
+              { "nombre": "Sentadillas", "series": 4, "repeticiones": 15 },
+              { "nombre": "Mountain climbers", "series": 4, "repeticiones": 30 },
+              { "nombre": "Plancha", "series": 4, "repeticiones": 40 },
+              { "nombre": "Crunch con giro", "series": 4, "repeticiones": 20 }
+            ]
+          }
+        ]
+      }
     }
   }
   
